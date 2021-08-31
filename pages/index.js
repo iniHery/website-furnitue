@@ -136,13 +136,15 @@ export default function Home() {
             <button>SUBSCRIBE</button>
           </div>
         </div>
-        <div style={{ overflowX: "auto" }}>
-          <div className="mobile-footer content-footer">
-            <img src="/bg19.jpg" />
-            <img src="/bg20.jpg" />
-            <img src="/bg21.jpg" />
-            <img src="/bg23.jpg" />
-            <img src="/bg22.jpg" />
+        <div className="mobile-main">
+          <div className="content-footer">
+            <div className="monile-footer">
+              <img src="/bg19.jpg" />
+              <img src="/bg20.jpg" />
+              <img src="/bg21.jpg" />
+              <img src="/bg23.jpg" />
+              <img src="/bg22.jpg" />
+            </div>
           </div>
         </div>
 

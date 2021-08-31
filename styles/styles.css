@@ -422,6 +422,11 @@ html {
   display: none;
 }
 
+.mobile-main {
+  overflow-x: scroll;
+  display: none;
+}
+
 /* FOOTER END */
 
 /* Responsive */
@@ -1095,5 +1100,9 @@ html {
 
   .footer-buttom p {
     font-size: 6px;
+  }
+
+  .mobile-main {
+    overflow-x: scroll;
   }
 }
