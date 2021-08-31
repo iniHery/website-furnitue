@@ -1,3 +1,5 @@
+import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 export default function Home() {
@@ -71,7 +73,7 @@ export default function Home() {
               </div>
             </div>
             <div className="content-img">
-              <img src="/bg10.jpg" alt="image about" />
+              <img src="/bg10.jpg" />
             </div>
           </div>
         </div>
@@ -136,7 +138,7 @@ export default function Home() {
         </div>
         <div style={{ overflowX: "auto" }}>
           -
-          <div className="content-footer" className="mobile-footer">
+          <div className="mobile-footer content-footer">
             <img src="/bg19.jpg" />
             <img src="/bg20.jpg" />
             <img src="/bg21.jpg" />
