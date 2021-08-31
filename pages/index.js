@@ -137,7 +137,6 @@ export default function Home() {
           </div>
         </div>
         <div style={{ overflowX: "auto" }}>
-          -
           <div className="mobile-footer content-footer">
             <img src="/bg19.jpg" />
             <img src="/bg20.jpg" />
