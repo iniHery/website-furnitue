@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 export default function Home() {
+  const [showMobileNav, setShowMobileNav] = useState(false);
+
   return (
     <div className="body">
       <section id="home-section" className="background-hero">
@@ -11,6 +15,18 @@ export default function Home() {
               <a href="#product-section">Galery</a>
               <a href="#contact-section">Contact</a>
             </ul>
+          </nav>
+          <nav className="mobile-nav">
+            <h2>Mr.GAPONOV</h2>
+            <button onClick={() => setShowMobileNav(!showMobileNav)}>=</button>
+            <div
+              className={`mobile-nav-content ${showMobileNav ? "visible" : ""}`}
+            >
+              <a>Home</a>
+              <a>About</a>
+              <a>Galery</a>
+              <a>Contact</a>
+            </div>
           </nav>
           <h3>8 (800) 987-65-43</h3>
         </div>
@@ -28,7 +44,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       <section id="about-section">
         <div className="about">
           <div className="about-header">
@@ -119,12 +134,15 @@ export default function Home() {
             <button>SUBSCRIBE</button>
           </div>
         </div>
-        <div className="content-footer">
-          <img src="/bg19.jpg" />
-          <img src="/bg20.jpg" />
-          <img src="/bg21.jpg" />
-          <img src="/bg23.jpg" />
-          <img src="/bg22.jpg" />
+        <div style={{ overflowX: "auto" }}>
+          -
+          <div className="content-footer" className="mobile-footer">
+            <img src="/bg19.jpg" />
+            <img src="/bg20.jpg" />
+            <img src="/bg21.jpg" />
+            <img src="/bg23.jpg" />
+            <img src="/bg22.jpg" />
+          </div>
         </div>
 
         <div className="footer-buttom">
@@ -137,7 +155,7 @@ export default function Home() {
               size you.
             </p>
           </div>
-          <div className="items-footer">
+          <div className="items-footer" style={{ paddingBottom: "28px" }}>
             <h2>USEFULL LINKS</h2>
             <p>
               <div>Vacancy</div>
@@ -145,7 +163,7 @@ export default function Home() {
               <div>Gallery</div>
             </p>
           </div>
-          <div className="items-footer">
+          <div className="items-footer" style={{ paddingBottom: "8px" }}>
             <h2>CONTACT</h2>
             <p>
               <div>Address : pr-t Tekstilshikov, d. 17, office 3</div>
