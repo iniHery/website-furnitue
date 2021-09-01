@@ -53,7 +53,7 @@ export default function Home() {
             <p>SOME HISTORY</p>
           </div>
           <div className="content-main">
-            <div>
+            <div className="title-main">
               <h2>— 1920</h2>
               <p>
                 Amet et delectus accommodare his consul copiosae legendos at vix
@@ -79,7 +79,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="service-section">
+      <section className="service-section" id="service-section">
         <div className="service">
           <div className="content-service">
             <h4>SERVICE</h4>
@@ -136,16 +136,12 @@ export default function Home() {
             <button>SUBSCRIBE</button>
           </div>
         </div>
-        <div className="mobile-main">
-          <div className="content-footer">
-            <div className="monile-footer">
-              <img src="/bg19.jpg" />
-              <img src="/bg20.jpg" />
-              <img src="/bg21.jpg" />
-              <img src="/bg23.jpg" />
-              <img src="/bg22.jpg" />
-            </div>
-          </div>
+        <div className="content-footer">
+          <img src="/bg19.jpg" alt="Girl in a jacket"></img>
+          <img src="/bg20.jpg" alt="Girl in a jacket"></img>
+          <img src="/bg21.jpg" alt="Girl in a jacket"></img>
+          <img src="/bg22.jpg" alt="Girl in a jacket"></img>
+          <img src="/bg23.jpg" alt="Girl in a jacket"></img>
         </div>
 
         <div className="footer-buttom">

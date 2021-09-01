@@ -134,6 +134,10 @@ html {
   font-family: "Gothams";
 }
 
+.mobile-main {
+  width: 50%;
+}
+
 /* End Header */
 
 /* CONTENT */
@@ -334,7 +338,6 @@ html {
 .footer {
   background-color: rgb(235, 235, 235);
   width: 100%;
-  height: auto;
 }
 
 .footer-header {
@@ -391,7 +394,7 @@ html {
   border: 5px solid;
   align-items: center;
   background-color: rgb(230, 230, 230);
-  box-shadow: inset 0px 6nppx 3px 0px #b3b3b3;
+  box-shadow: inset 0px 6px 3px 0px #b3b3b3;
 }
 
 .footer-buttom {
@@ -418,25 +421,16 @@ html {
   padding: 0px 50px;
 }
 
-.mobile-footer {
-  display: none;
-}
-
-.mobile-main {
-  overflow-x: scroll;
-  display: none;
-}
-
 /* FOOTER END */
 
 /* Responsive */
 
 /* Phones, 600px and down  */
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1024px) {
   /* Header */
 
-  .background-hero {
+  /* .background-hero {
     height: 100vh;
     width: 100%;
     background-image: url("/bg.jpg");
@@ -553,7 +547,7 @@ html {
     text-align: center;
     padding: 10px 6px;
     font-family: "Gothams";
-  }
+  } */
 
   /* End Header */
 
@@ -561,7 +555,7 @@ html {
 
   /* About */
 
-  .about {
+  /* .about {
     background-color: #fff;
     height: 85vh;
   }
@@ -627,13 +621,13 @@ html {
   .content-main button:hover {
     color: #fff;
     background-color: rgb(0, 98, 255);
-  }
+  } */
 
   /* About End */
 
   /* Service */
 
-  .service {
+  /* .service {
     background-color: rgb(235, 235, 235);
     height: 65vh;
   }
@@ -666,13 +660,13 @@ html {
     height: 34vh;
     width: 100%;
     padding: 0px 15px;
-  }
+  } */
 
   /* Service End */
 
   /* News */
 
-  .news {
+  /* .news {
     height: 80vh;
   }
 
@@ -744,7 +738,7 @@ html {
 
   .title-news button:hover {
     color: rgb(0, 81, 255);
-  }
+  } */
 
   /* News End */
 
@@ -752,10 +746,10 @@ html {
 
   /* FOOTER */
 
-  .footer {
+  /* .footer {
     background-color: rgb(235, 235, 235);
     width: 100%;
-    height: auto;
+    height: 100vh;
   }
 
   .footer-header {
@@ -805,14 +799,14 @@ html {
   }
 
   .content-footer img {
-    width: auto;
+    width: 28vh;
     height: 28vh;
     padding: 40px;
     margin: 0px 10px;
     border: 5px solid;
     align-items: center;
     background-color: rgb(230, 230, 230);
-    box-shadow: inset 0px 6nppx 3px 0px #b3b3b3;
+    box-shadow: inset 0px 6px 3px 0px #b3b3b3;
   }
 
   .footer-buttom {
@@ -840,8 +834,7 @@ html {
   }
 
   .mobile-footer {
-    display: none;
-  }
+  } */
 
   /* FOOTER END */
 }
@@ -940,12 +933,18 @@ html {
   }
 
   .content-main img {
-    height: 40vh;
-    width: 100%;
+    height: 30vh;
+    width: auto;
+  }
+
+  .title-main {
+    margin: 0px 50px;
   }
 
   .content-main button {
-    display: none;
+    padding: 6px 20px;
+    margin-bottom: 14px;
+    font-size: 12px;
   }
 
   .content-main h2 {
@@ -977,11 +976,17 @@ html {
   .main-service {
     display: grid;
     grid-template-columns: 1fr;
-    margin: 4% 8%;
+    margin: 0 auto;
+  }
+
+  .main-service img {
+    padding: 0px;
   }
 
   .service img {
-    height: 40vh;
+    height: 36vh;
+    width: auto;
+    margin: 0 auto;
     padding: 20px 15px;
   }
 
@@ -1009,12 +1014,9 @@ html {
     font-family: "Gothams";
   }
 
-  .content-news img {
-    height: 52vh;
-  }
-
   .content-news h3 {
-    font-size: 18px;
+    font-size: 14px;
+    padding: 8px 0px;
   }
 
   .title-news {
@@ -1036,10 +1038,11 @@ html {
 
   .img-news {
     background: rgb(247, 188, 88);
+    margin: auto;
   }
 
   .img-news img {
-    height: 29vh;
+    height: 20vh;
   }
 
   /* News End */
@@ -1050,7 +1053,7 @@ html {
 
   .footer {
     width: 100%;
-    height: auto;
+    height: 100vh;
   }
 
   .footer-header input {
@@ -1065,21 +1068,22 @@ html {
   }
 
   .content-footer {
-    display: none;
-  }
-
-  .mobile-footer {
+    overflow-x: scroll;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    margin: 0px 20px;
-    padding-bottom: 12%;
+    justify-content: center;
   }
 
-  .mobile-footer img {
+  .content-footer img {
     width: auto;
-    margin: 0px 20px;
-    border-radius: 8px;
-    height: 20vh;
+    height: 28vh;
+    padding: 30px;
+    margin: 0px auto;
+    border: none;
+    align-items: center;
+    background-color: transparent;
+
+    box-shadow: none;
   }
 
   .items-footer {
@@ -1094,15 +1098,15 @@ html {
     font-size: 8px;
   }
 
+  .footer-buttom {
+    margin-top: 50%;
+  }
+
   .footer-buttom h2 {
     font-size: 8px;
   }
 
   .footer-buttom p {
     font-size: 6px;
-  }
-
-  .mobile-main {
-    overflow-x: scroll;
   }
 }
