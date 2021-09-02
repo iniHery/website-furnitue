@@ -29,6 +29,7 @@ html {
   justify-content: space-between;
   text-align: center;
   padding: 20px 100px;
+  color: #000;
 }
 
 .hero h1 {
@@ -98,6 +99,7 @@ html {
 
 .mobile-nav {
   display: none;
+  color: #000;
 }
 
 .mobile-nav button {
@@ -122,6 +124,7 @@ html {
   justify-content: center;
   flex-direction: column;
   background-color: #fff;
+  color: #000;
 }
 
 .mobile-nav-content.visible {
@@ -941,7 +944,7 @@ html {
   }
 
   .title-main {
-    margin: 0px 50px;
+    margin: 0px 40px;
   }
 
   .content-main button {
@@ -1019,7 +1022,7 @@ html {
   }
 
   .title-news {
-    margin: 0px 50px;
+    margin: 0px 40px;
   }
 
   .title-news h2 {
@@ -1086,19 +1089,22 @@ html {
   }
 
   .items-footer {
-    padding: 0px 30px;
+    align-items: center;
+    text-align: start;
+    padding: 8px 18px;
+    margin: 0 auto;
   }
 
   .footer-header h4 {
     font-size: 12px;
   }
 
-  .footer-header p {
+  .footer-header p div {
     font-size: 8px;
   }
 
   .footer-buttom {
-    margin-top: 24%;
+    margin-top: 19%;
   }
 
   .footer-buttom h2 {
@@ -1106,6 +1112,7 @@ html {
   }
 
   .footer-buttom p {
+    margin-bottom: 10px;
     font-size: 6px;
   }
 }

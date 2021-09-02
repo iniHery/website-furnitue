@@ -146,19 +146,9 @@ export default function Home() {
           </div>
         </div>
 
-        {/* <div style={{ overflow: "auto" }}>
-          <div className="content-footer">
-            <img src="/bg19.jpg" />
-            <img src="/bg20.jpg" />
-            <img src="/bg21.jpg" />
-            <img src="/bg22.jpg" />
-            <img src="/bg23.jpg" />
-          </div>
-        </div> */}
-
         <div className="footer-buttom">
           <div className="items-footer">
-            <h2>Mr.GOPONOV</h2>
+            <h2 style={{ paddingBottom: "10px" }}>Mr.GOPONOV</h2>
             <p>
               Far concluded not his something extremity. Want four we face an he
               gate. On he of played he ladies answer little though nature.
@@ -167,7 +157,7 @@ export default function Home() {
             </p>
           </div>
           <div className="items-footer" style={{ paddingBottom: "28px" }}>
-            <h2>USEFULL LINKS</h2>
+            <h2 style={{ paddingBottom: "10px" }}>USEFULL LINKS</h2>
             <p>
               <div>Vacancy</div>
               <div>Contact</div>
@@ -175,11 +165,11 @@ export default function Home() {
             </p>
           </div>
           <div className="items-footer" style={{ paddingBottom: "8px" }}>
-            <h2>CONTACT</h2>
-            <p>
-              <div>Address : pr-t Tekstilshikov, d. 17, office 3</div>
-              <div>Number : 8 (800) 987-65-43</div>
-              <div>E-mail : Interior_life@yandex.ru</div>
+            <h2 style={{ paddingBottom: "8px" }}>CONTACT</h2>
+            <p style={{ paddingBottom: "18px" }}>
+              <span>Address : pr-t Tekstilshikov, d.17, office 3</span>
+              <span>Number : 8 (800) 987-65-43</span>
+              <span>E-mail : Interior_life@yandex.ru</span>
             </p>
           </div>
         </div>
