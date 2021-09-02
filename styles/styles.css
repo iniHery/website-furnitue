@@ -437,7 +437,7 @@ html {
   overflow: auto;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1440px) {
   /* Header */
 
   .hero {
@@ -450,14 +450,14 @@ html {
 
   .hero h1 {
     font-family: "Gothams";
-    font-size: 18px;
+    font-size: 22px;
     margin: 0;
     padding-top: 16px;
   }
 
   .hero h3 {
     font-family: "Gothams";
-    font-size: 14px;
+    font-size: 16px;
     margin: 0;
     padding-top: 18px;
     cursor: pointer;
@@ -466,7 +466,7 @@ html {
   .navi a {
     font-family: "Gothams";
     padding: 0px 30px;
-    font-size: 14px;
+    font-size: 16px;
     background-color: transparent;
     transition: 0.2s;
   }
@@ -655,7 +655,7 @@ html {
   }
 
   .service img {
-    height: 34vh;
+    height: 44vh;
     width: 100%;
     padding: 0px 15px;
     padding-bottom: 30px;
@@ -838,7 +838,7 @@ html {
   }
 
   .feature-images-container img {
-    height: 26vh;
+    height: 32vh;
     width: 80%;
     border: 5px solid;
     padding: 30px;
