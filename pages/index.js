@@ -167,9 +167,9 @@ export default function Home() {
           <div className="items-footer" style={{ paddingBottom: "8px" }}>
             <h2 style={{ paddingBottom: "px" }}>CONTACT</h2>
             <p style={{ paddingBottom: "18px" }}>
-              <span>Address : pr-t Tekstilshikov, d.17, office 3</span>
-              <span>Number : 8 (800) 987-65-43</span>
-              <span>E-mail : Interior_life@yandex.ru</span>
+              <div>Address : pr-t Tekstilshikov, d.17, office 3</div>
+              <div>Number : 8 (800) 987-65-43</div>
+              <div>E-mail : Interior_life@yandex.ru</div>
             </p>
           </div>
         </div>
