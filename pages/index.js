@@ -136,13 +136,25 @@ export default function Home() {
             <button>SUBSCRIBE</button>
           </div>
         </div>
-        <div className="content-footer">
-          <img src="/bg19.jpg" alt="Girl in a jacket"></img>
-          <img src="/bg20.jpg" alt="Girl in a jacket"></img>
-          <img src="/bg21.jpg" alt="Girl in a jacket"></img>
-          <img src="/bg22.jpg" alt="Girl in a jacket"></img>
-          <img src="/bg23.jpg" alt="Girl in a jacket"></img>
+        <div className="feature-images-container">
+          <div className="img-footer">
+            <img src="/bg19.jpg" />
+            <img src="/bg20.jpg" />
+            <img src="/bg21.jpg" />
+            <img src="/bg22.jpg" />
+            <img src="/bg23.jpg" />
+          </div>
         </div>
+
+        {/* <div style={{ overflow: "auto" }}>
+          <div className="content-footer">
+            <img src="/bg19.jpg" />
+            <img src="/bg20.jpg" />
+            <img src="/bg21.jpg" />
+            <img src="/bg22.jpg" />
+            <img src="/bg23.jpg" />
+          </div>
+        </div> */}
 
         <div className="footer-buttom">
           <div className="items-footer">
